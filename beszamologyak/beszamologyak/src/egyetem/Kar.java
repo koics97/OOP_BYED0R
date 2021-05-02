@@ -65,7 +65,7 @@ public class Kar extends SzervezetiEgyseg {
 	
 	@Override
 	public String toString() {
-		return "Kar [dekan=" + dekan + ", hallgatoi letszam=" + hallgatoiLetszam + "]";
+		return "Kar [neve=" + getNev() + ", dekan=" + dekan + ", dolgozoi letszam=" + this.getDolgozoiLetszam() + ", hallgatoi letszam=" + hallgatoiLetszam + "]";
 	}
 
 
